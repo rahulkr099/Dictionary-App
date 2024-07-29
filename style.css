@@ -11,18 +11,18 @@ body{
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #4D59FB;
+  background: #6b73e0;
 }
 ::selection{
-  color: #fff;
+  color: #f8f5f5;
   background: #4D59FB;
 }
 .wrapper{
   width: 420px;
   border-radius: 7px;
-  background: #fff;
+  background: rgba(0, 0, 0, 0.7);
   padding: 25px 28px 45px;
-  box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.05);
+  box-shadow: 7px 7px 20px rgba(255, 255, 255, 0.9);
 }
 .wrapper header{
   font-size: 28px;
@@ -40,19 +40,19 @@ body{
   font-size: 16px;
   border-radius: 5px;
   padding: 0 42px;
-  border: 1px solid #999;
+  border: 1px solid #999999d6;
 }
 .search input:focus{
   padding: 0 41px;
   border: 2px solid #4D59FB;
 }
 .search input::placeholder{
-  color: #B8B8B8;
+  color: #181717;
 }
 .search :where(i, span){
   position: absolute;
   top: 50%;
-  color: #999;
+  color: #211313;
   transform: translateY(-50%);
 }
 .search i{
@@ -74,7 +74,7 @@ body{
 }
 .wrapper .info-text{
   font-size: 13px;
-  color: #9A9A9A;
+  color: #dedede;
   margin: -3px 0 -10px;
 }
 .wrapper.active .info-text{
@@ -100,7 +100,7 @@ body{
   margin-bottom: 14px;
   align-items: center;
   padding-bottom: 17px;
-  border-bottom: 1px solid #D9D9D9;
+  border-bottom: 1px solid #f3f2f2;
   justify-content: space-between;
 }
 ul li:last-child{
@@ -114,10 +114,10 @@ ul .word p{
 }
 ul .word span{
   font-size: 12px;
-  color: #989898;
+  color: #f00404;
 }
 ul .word i{
-  color: #999;
+  color: #f6f1f1;
   font-size: 15px;
   cursor: pointer;
 }
@@ -131,7 +131,7 @@ ul .content::-webkit-scrollbar{
 .content li .details{
   padding-left: 10px;
   border-radius: 4px 0 0 4px;
-  border-left: 3px solid #4D59FB;
+  border-left: 3px solid #17ce17;
 }
 .content li p{
   font-size: 17px;
@@ -139,7 +139,7 @@ ul .content::-webkit-scrollbar{
 }
 .content li span{
   font-size: 15px;
-  color: #7E7E7E;
+  color: #45aa07;
 }
 .content .synonyms .list{
   display: flex;

@@ -59,7 +59,7 @@ volume.addEventListener("click", ()=>{
     volume.style.color = "#4D59FB";
     audio.play();
     setTimeout(() =>{
-        volume.style.color = "#999";
+        volume.style.color = "#fff";
     }, 800);
 });
 
@@ -67,6 +67,6 @@ removeIcon.addEventListener("click", ()=>{
     searchInput.value = "";
     searchInput.focus();
     wrapper.classList.remove("active");
-    infoText.style.color = "#9A9A9A";
+    infoText.style.color = "#ffff";
     infoText.innerHTML = "Type any existing word and press enter to get meaning, example, synonyms, etc.";
 });
